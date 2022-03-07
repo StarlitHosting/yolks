@@ -22,9 +22,9 @@
 
 FROM        --platform=$TARGETOS/$TARGETARCH python:3.10-alpine
 
-LABEL       author="Matthew Penner" maintainer="matthew@StarlitHosting.io"
+LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 
-LABEL       org.opencontainers.image.source="https://github.com/StarlitHosting/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         apk add --update --no-cache cmake make ca-certificates curl ffmpeg g++ gcc git openssl sqlite tar tzdata \

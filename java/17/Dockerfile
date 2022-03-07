@@ -22,9 +22,9 @@
 
 FROM        --platform=$TARGETOS/$TARGETARCH openjdk:17-slim
 
-LABEL       author="Matthew Penner" maintainer="matthew@StarlitHosting.io"
+LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 
-LABEL       org.opencontainers.image.source="https://github.com/StarlitHosting/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN 		apt-get update -y \

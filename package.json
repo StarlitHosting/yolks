@@ -1,7 +1,7 @@
 {
   "name": "yols",
   "version": "1.0.0",
-  "description": "A curated collection of core images that can be used with StarlitHosting's Egg system. Each image is rebuilt\r periodically to ensure dependencies are always up-to-date.",
+  "description": "A curated collection of core images that can be used with Pterodactyl's Egg system. Each image is rebuilt\r periodically to ensure dependencies are always up-to-date.",
   "main": "index.js",
   "scripts": {
     "test": "exit 0"
