@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/StarlitHosting/yolks/issues"
   },
-  "homepage": "https://github.com/StarlitHosting/yolks#readme"
+  "homepage": "https://github.com/StarlitHosting/yolks#readme",
+  "publishConfig": {
+   "@StarlitHosting:registry": "https://npm.pkg.github.com"
+ }
 }
