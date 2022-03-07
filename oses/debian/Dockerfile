@@ -2,7 +2,7 @@ FROM        --platform=$TARGETOS/$TARGETARCH debian:buster-slim
 
 LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
 
-LABEL       org.opencontainers.image.source="https://github.com/StarlitHosting/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/starlithosting/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         apt update && apt upgrade -y \
